@@ -1,9 +1,8 @@
+/*
+The API keys used below (openWeatherAPI and nytAPI) are located in the apiKeys.js file
+which I have added to the .gitignore file so they aren't exposed on GitHub.
+*/
 $(function(){
-	$.getScript("apiKeys.js");
-	// the $.getScript is importing the apiKeys.js file which has my OpenWeatherMap and
-	// NYT APIs, I have included apiKeys.js in my .gitignore file so I don't expose 
-	// the keys on GitHub
-
 	var latitude;
 	var longitude;
 	var request;
