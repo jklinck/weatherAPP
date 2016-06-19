@@ -1,1 +1,1 @@
-Weather app using the Open Weather API. 
+Weather app using the Open Weather API, Google Maps API and the NYT API. When a user visits the site it will require them to allow location tracking. After they allow location tracking it will show their local weather (where they can toggle between Farenheit and Celcius) and the last ten New York Times articles about their city. 
