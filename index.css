@@ -1,9 +1,5 @@
-body,html{
-	height:100%;
-	margin:0;
-	padding:0;
-	background-color: #b1d3de;
-}
-.center{
-	text-align:center;
+.icon{
+	height:50px;
+	background-repeat: no-repeat;
+	background-position: center;
 }

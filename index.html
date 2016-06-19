@@ -4,18 +4,24 @@
 	<meta charset='utf-8'>
 	<title>Local weather app</title>
 	<link type='text/css' rel='stylesheet' href='index.css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 	<script src="apiKeys.js"></script>
 	<script src="index.js"></script>
 </head>
 <body>
-	<h1 class="center">Local Weather App</h1>
-	<h3 class="center" id="city"></h3>
-	<h3 class="center" id="state"></h3>
-	<h3 class="center" id="country"></h3>
-	<p class="center" id="weather"></p>
-	<p class="center"><i id="main"></i></p>
-	<p class="center" id="description"></p>
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<h1 class="text-center">Local Weather App</h1>
+			<h3 class="text-center" id="cityState"></h3>
+			<h3 class="text-center" id="country"></h3>
+			<p class="text-center" id="weather"></p>
+			<p class="icon"></p>
+			<p class="text-center" id="description"></p>
+		</div>
+		<h3 class="text-center" id="nytimes-header">New York Times Articles</h3>
+		<ul class="articles-list"></ul>
+	</div>
 </body>
 </html>
